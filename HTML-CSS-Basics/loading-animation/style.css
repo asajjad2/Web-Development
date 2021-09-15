@@ -1,0 +1,31 @@
+p {
+    font-family: 'Karantina', cursive;
+    font-size: 2em;
+    color: #0a2239;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    min-height: 100vh;
+}
+
+section{
+    max-width: 50%;
+    text-align: center;
+}
+
+@keyframes rotate { to {  transform: rotate(1turn) }}
+
+#loader{
+    display: inline-block;
+    border: solid 5px;
+    width: 35px;
+    height: 35px;
+    border-left-color: #1d84b5;
+    border-bottom-color: #1d84b5;
+    border-top-color: #0a2239;
+    border-right-color: #0a2239;;
+    border-radius: 100%;
+    animation: rotate 600ms infinite linear;
+}
