@@ -1,0 +1,24 @@
+
+
+nav{
+    display: flex;
+    flex-direction: column;
+    /* background-color: #d5dcf9; */
+    border-bottom: #ccc solid 1px;
+    
+}
+
+a{
+    text-decoration: none;
+    background-color: #ccc;
+    color: black;
+    margin: 5px;
+    padding: 5px 15px;
+    border-radius: 3px;
+}
+
+a:hover, a:focus, a:active {
+    background-color: #aaa;
+    text-decoration: underline;
+    /* padding: 3px 5px;  */
+}
