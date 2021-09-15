@@ -1,0 +1,23 @@
+
+
+nav{
+    display: flex;
+    background-color: #d5dcf9;
+    border-bottom: black solid 1px;
+    padding: 10px 0;
+}
+
+a{
+    text-decoration: none;
+    background-color: #8edce6;
+    color: #443627;
+    margin: 0 15px;
+    padding: 3px 5px;
+}
+
+a:hover, a:focus, a:active {
+    background-color: #a7b0ca;
+    color: black;
+    margin: 0 5px;
+    /* padding: 3px 5px;  */
+}
